@@ -168,3 +168,10 @@ header {
 .offer-content h1 {
   font-size: 50px;
 }
+
+/* Featured Companies */
+#featured{
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+}
