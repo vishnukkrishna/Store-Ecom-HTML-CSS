@@ -170,8 +170,8 @@ header {
 }
 
 /* Featured Companies */
-#featured{
-    margin: 80px auto;
-    display: flex;
-    justify-content: space-between;
+#featured {
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
 }
