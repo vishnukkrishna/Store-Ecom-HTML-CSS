@@ -175,3 +175,33 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+/* Footer */
+footer {
+  background: var(--footerBg);
+}
+
+footer p,
+footer li {
+  color: #b5b5b5;
+}
+
+footer h3 {
+  color: whitesmoke;
+}
+
+.footer-content {
+  display: flex;
+  padding: 80px 0;
+  align-items: center;
+}
+
+.footer-content .col {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.copyright {
+  padding: 10px 0;
+  text-align: center;
+}
