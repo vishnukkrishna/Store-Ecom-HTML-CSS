@@ -120,10 +120,32 @@ header {
 /* Category Section */
 #categories {
   display: flex;
-  margin-top: 80px;
+  margin: 80px auto;
   justify-content: space-between;
+}
+
+.category-content:nth-child(1) {
+  margin-bottom: 10px;
 }
 
 .category {
   text-align: center;
+}
+
+/* Feature Products */
+#featured-products {
+  margin: 80px auto;
+}
+
+.section-info {
+  display: flex;
+  flex-direction: column;
+  margin: 60px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
 }
